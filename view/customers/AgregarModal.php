@@ -16,7 +16,7 @@
 						<div class="col-sm-12">
 							<div class="form-group form-group-default">
 								<label>Cedula</label>
-								<input name="dnipa" type="text" required class="form-control" maxlength="8" placeholder="Ingrese cedula" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
+								<input name="dnipa" type="text" required class="form-control" maxlength="10" placeholder="Ingrese cedula" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
 							</div>
 						</div>
 						<div class="col-md-6 pr-0">

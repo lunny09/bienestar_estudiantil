@@ -17,7 +17,7 @@
 													 
 													<form  method="POST" action="../view/specialty/obtener.php?codespe=<?php echo $row['codespe']; ?>">
 															 	
-													<input class="form-control" name="codespe"   type="hidden" value="<?php echo $row->codespe; ?>">
+													<input class="form-control" name="codespe"   type="hidden" value="<?php echo $row['codespe']; ?>">
 														<div class="row">
 															<div class="col-sm-12">
 																<div class="form-group form-group-default">
