@@ -466,7 +466,7 @@
 						<div class="form-button-action">
 								
 									
-				<a href="#editRowModal_<?php echo $va["codhor"]; ?>" title="Editar" data-backdrop="false" class="btn btn-link btn-primary btn-lg" data-toggle="modal"><i class="fa fa-edit"></i></a>
+				<a href="#editRowModal_<?php echo $va["codhor"]; ?>" title="Editar"  class="btn btn-link btn-primary btn-lg" data-toggle="modal"><i class="fa fa-edit"></i></a>
 													
 															<button href="#deleteRowModal=<?php echo $va['codhor'];?>" class="btn btn-link btn-danger btn-lg" data-toggle="modal"  title="" data-original-title="Delete Task" data-target="#deleteRowModal<?php echo $va['codhor']; ?>">
 														<i class="fa fa-times"></i>

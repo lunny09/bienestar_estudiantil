@@ -17,7 +17,7 @@
 				 
 				<form  method="POST" action="../view/usuarios/obtener.php?id=<?php echo $row['id']; ?>">
 							
-				<input class="form-control" name="id" type="hidden" value="<?php echo $row->id; ?>">
+				<input class="form-control" name="id" type="hidden" value="<?php echo $row['id']; ?>">
 					<div class="row">
 						
 						<div class="col-md-6 pr-0">
@@ -108,7 +108,7 @@
 				 
 				<form  method="POST" action="../view/usuarios/password.php?id=<?php echo $row['id']; ?>">
 							
-				<input class="form-control" name="id" type="hidden" value="<?php echo $row->id; ?>">
+				<input class="form-control" name="id" type="hidden" value="<?php $row['id']; ?>">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="form-group form-group-default">

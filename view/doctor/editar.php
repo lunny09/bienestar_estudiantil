@@ -114,23 +114,23 @@
 									
 									
 								<!-- Delete -->
-<<button class="btn btn-link btn-danger btn-lg" data-toggle="modal" title="Delete Task" data-target="#deleteRowModal<?php echo $va['coddoc']; ?>">
-    <i class="fa fa-times"></i>
-</button>
 
-<div class="modal fade" id="deleteRowModal<?php echo $va['coddoc']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+
+								<div class="modal fade" id="deleteRowModal<?php echo $va['coddoc']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Confirmación de eliminación</h4>
+                <h5 class="modal-title" id="exampleModalLabel">Confirmación de eliminación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
                 <p class="text-center">¿Está seguro de borrar el registro?</p>
                 <h2 class="text-center"><?php echo $va['nomdoc']; ?></h2>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                 <a href="../view/doctor/BorrarRegistro.php?coddoc=<?php echo $va['coddoc']; ?>" class="btn btn-danger">Eliminar</a>
             </div>
         </div>
